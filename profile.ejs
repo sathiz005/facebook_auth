@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+</head>
+<body>
+    <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+                <p>
+                    <strong>id</strong>: <%= user.id %><br>
+                    <strong>email</strong>: <%= user.emails[0].value %><br>
+                    <strong>name</strong>: <%= user.displayName %><br>
+                    <img src="<%= user.photos[0].value %>" width="200" height="200" alt="">
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
